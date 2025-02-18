@@ -27,15 +27,15 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
             data: {
                 datasets: [{
                     label: 'Team Goals',
-                    data: [4, 4, 2, 2],
+                    data: [4, 4, 2, 2, 7, 11, 7, 3, 9, 8, 3],
                     order: 1
             }, {
                 label: 'Team Passes',
-                data: [10, 28, 18, 24],
+                data: [10, 28, 18, 24, 32, 29, 18, 21, 16, 17, 12],
                 type: 'line',
                 order: 2
         }],
-        labels: ['Game1: Skedsmo', 'Game2: Lørenskog', 'Game3: Lørenskog', 'Game4: Comet']
+        labels: ['G1: Skedsmo', 'G2: Lørenskog', 'G3: Lørenskog', 'G4: Comet', 'G5: Skedsmo', 'G6: Astor', 'G7: Rosenborg', 'G8: Rosenborg', 'G9: Astor', 'G10: Comet', 'G11: Lærenskog']
     },
        options: {
                 scales: {
