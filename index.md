@@ -25,10 +25,28 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
         const myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                labels: ['Game 1', 'Game 2', 'Game 3', 'Game 4', 'Game 5', 'Game 6'],
                 datasets: [{
-                    label: '# of Votes',
+                    label: 'Goals',
                     data: [12, 19, 3, 5, 2, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    label: 'Passes',
+                    data: [20, 25, 17, 35, 39, 15],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
@@ -60,8 +78,8 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
 <div id="myDiv" style="width: 100%; height: 100%;"></div>
 <script>
   var data = [{
-    x: [1, 2, 3, 4],
-    y: [10, 15, 13, 17],
+    x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    y: [4, 4, 3, 6, 7, 10, 12, 9, 10, 4, 3],
     mode: 'markers',
     type: 'scatter'
   }];
