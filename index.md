@@ -27,18 +27,17 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
             data: {
                 datasets: [{
                     label: 'Bar Dataset',
-                    data: [10, 20, 30, 40]
+                    data: [10, 20, 30, 40],
+                    order: 1
             }, {
                 label: 'Line Dataset',
                 data: [50, 50, 50, 50],
-            type: 'line'
+                type: 'line',
+                order: 2
         }],
         labels: ['Skedsmo', 'Lørenskog', 'Lørenskog', 'Comet']
     },
-    options: options
-});
-            },
-            options: {
+       options: {
                 scales: {
                     y: {
                         beginAtZero: true
