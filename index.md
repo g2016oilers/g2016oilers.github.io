@@ -45,8 +45,9 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
                 }
             }
         });
-    <canvas id="myChart" width="400" height="200"></canvas>
-    <script>
+    </script>
+        <canvas id="myChart" width="400" height="200"></canvas>
+        <script>
         const ctx = document.getElementById('myChart').getContext('2d');
         var mixedChart = new Chart(ctx, {
             type: 'bar',
