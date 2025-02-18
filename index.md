@@ -16,6 +16,7 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <canvas id="myChart" width="400" height="200"></canvas>
@@ -56,6 +57,17 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
             }
         });
     </script>
+<div id="myDiv" style="width: 100%; height: 100%;"></div>
+<script>
+  var data = [{
+    x: [1, 2, 3, 4],
+    y: [10, 15, 13, 17],
+    mode: 'markers',
+    type: 'scatter'
+  }];
+
+  Plotly.newPlot('myDiv', data);
+</script>
 </body>
 </html>
 ----
