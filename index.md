@@ -35,7 +35,7 @@ Welcome to the home of the Stavanger Oilers boys 2016 hockey team
                 type: 'line',
                 order: 2
         }],
-        labels: ['G1: Skedsmo', 'G2: Lørenskog', 'G3: Lørenskog', 'G4: Comet', 'G5: Skedsmo', 'G6: Astor', 'G7: Rosenborg', 'G8: Rosenborg', 'G9: Astor', 'G10: Comet', 'G11: Lærenskog']
+        labels: ['G1: Skedsmo', 'G2: Lørenskog', 'G3: Lørenskog', 'G4: Comet', 'G5: Skedsmo', 'G6: Astor', 'G7: Rosenborg', 'G8: Rosenborg', 'G9: Astor', 'G10: Comet', 'G11: Lørenskog']
     },
        options: {
                 scales: {
